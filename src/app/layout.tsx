@@ -27,6 +27,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <h2 className="text-2xl font-bold text-center">Nav Bar</h2>
         {children}
       </body>
     </html>
